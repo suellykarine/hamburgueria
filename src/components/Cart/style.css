@@ -1,0 +1,98 @@
+.carrinho {
+    font-size: 13px;
+    width: 200px;
+    /* list-style: none; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #f5f5f5;
+}
+
+h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.div-carrinho-inicio {
+    background: #27ae60;
+}
+
+.ul-carrinho {
+    list-style: none;
+}
+
+.img-carrinho {
+    width: 50px;
+}
+
+.span-carrinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-remover {
+    color: #bdbdbd;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.span-produto-carrinho {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #333333;
+}
+
+.span-categoria-carrinho {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* grey-300 */
+    color: #828282;
+}
+
+.teste3 {
+    background: rgb(236, 234, 234);
+    width: 90px;
+    height: 125px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left: 10px;
+}
+
+.img-inicio-carrinho {
+    width: 200px;
+}
+
+.remover-todos {
+    background: #e0e0e0;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+    width: 204px;
+    height: 44px;
+}
